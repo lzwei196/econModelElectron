@@ -1,22 +1,20 @@
 {
-  "name": "electron-quick-start",
+  "name": "econ-demo",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "econ model Gui",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "repository": "https://github.com/lzwei196/econModelElectron.git",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-select": "^1.13.10",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "tether": "^1.4.6"
+  },
   "devDependencies": {
-    "electron": "^5.0.5"
+    "electron": "^5.0.6"
   }
 }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Economical Model</title>
+  </head>
+
+  <body>
+    <!-- navagation bar -->
+
+      <header id="titlebar">
+          <div id="drag-region">
+              <div id="window-title">
+                  <span>Economial Model</span>
+                </div>
+          </div>
+          <div id="window-controls">
+              <div class="button" id="min-button">
+                <span>&#xE921;</span>
+              </div>
+              <div class="button" id="max-button">
+                <span>&#xE922;</span>
+              </div>
+              <div class="button" id="restore-button">
+                <span>&#xE923;</span>
+              </div>
+              <div class="button" id="close-button">
+                <span>&#xE8BB;</span>
+      </header>
+
+      <!--heading-->
+      <div class="container-fluid">
+          <div role="main">
+              <h1 class="text-center">Economical Model</h1>
+          </div>
+      
+      <!-- location-options dropdown menu-->
+      <div class="location-options" align="center">
+        <h2>1.Choose the location</h2>
+          <div class="col-sm-6">
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Location  </label>
+              </div>
+              <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose Location</option>
+                <option value="1">Montreal</option>
+                <option value="2">Toronto</option>
+                <option value="3">Vancouver</option>
+              </select>
+            </div>
+            </div>
+      </div>
+
+      <!-- choose the project -->
+      <div class="project-options" align="center">
+          <h2>2.Choose the project</h2>
+            <div class="col-sm-6">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="inputGroupSelect01">project   </label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>Choose project</option>
+                  <option value="1">Montreal</option>
+                  <option value="2">Toronto</option>
+                  <option value="3">Vancouver</option>
+                </select>
+              </div>
+              </div>
+        </div>
+
+      <!-- mitigation methods options -->
+      <div class="location-options" align="center">
+          <h2>3.Choose the mitigation methods</h2>
+            <div class="col-sm-6">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="inputGroupSelect01">mitigation</label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>Choose mitigation</option>
+                  <option value="1">Montreal</option>
+                  <option value="2">Toronto</option>
+                  <option value="3">Vancouver</option>
+                </select>
+              </div>
+              </div>
+        </div>
+
+        <div class="calculate-button" align = "center" id="calculate-button">
+        <button type="button" class="btn btn-danger btn-rounded">Calculate</button>
+      </div>
+        </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js" onload="window.$ = window.jQuery = module.exports;"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+      </script>
+      </body>
+</html>
