@@ -5,6 +5,7 @@ body, html {
     color: #ABB2BF;
     background: #282C34;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #titlebar {
@@ -103,4 +104,15 @@ h2{
 
 .calculate-button{
   padding-top: 40px;
+}
+
+#sidebar-wrapper {
+
+}
+
+#sidebar-wrapper .sidebar-heading {
+
+}
+
+#sidebar-wrapper .list-group {
 }
